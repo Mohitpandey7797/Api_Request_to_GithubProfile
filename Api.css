@@ -1,0 +1,22 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+.card:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+    /* Increase the size on hover */
+}
+
+/* Reset the styles on mouse out (optional) */
+.card {
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+body {
+    background: #9bc5c5;
+}
+
+.container {
+    height: 100vh;
+}
